@@ -1,0 +1,1 @@
+ C:\\Users\\Kyle\\Documents\\Projects\\FloppyBird\\floppy_bird\\.dart_tool\\flutter_build\\c912f3cef25d38b8d91bd2d7f81192ff\\native_assets.yaml: 
