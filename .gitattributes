@@ -1,1 +1,5 @@
 *.dart linguist-language=Dart
+*.yaml linguist-vendored
+*.sh linguist-vendored
+*.json linguist-vendored
+*.yml linguist-vendored
