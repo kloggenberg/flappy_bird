@@ -11,10 +11,11 @@ class Pipe extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       alignment: Alignment(pipeX, isBottomPipe ? 1 : -1),
-      child: Container(
+      child: Image.asset(
+        'assets/images/pipe-green.png', // Pipe image
         width: 60,
         height: pipeHeight,
-        color: Colors.green,
+        fit: BoxFit.cover,
       ),
     );
   }

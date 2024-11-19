@@ -73,10 +73,17 @@ class _GameScreenState extends State<GameScreen> {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      // Tap to either jump or restart based on game state
       onTap: isGameOver ? resetGame : (gameHasStarted ? jump : startGame),
       child: Stack(
         children: [
+          // Background Image
+          Image.asset(
+            'assets/images/background-day.png',
+            width: double.infinity,
+            height: double.infinity,
+            fit: BoxFit.cover,
+          ),
+
           // Bird widget
           Bird(yPosition: birdY),
 

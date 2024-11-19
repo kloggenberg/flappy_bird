@@ -10,13 +10,10 @@ class Bird extends StatelessWidget {
     return AnimatedContainer(
       alignment: Alignment(0, yPosition),
       duration: const Duration(milliseconds: 0),
-      child: Container(
+      child: Image.asset(
+        'assets/images/yellowbird-midflap.png', // Bird image
         width: 50,
         height: 50,
-        decoration: const BoxDecoration(
-          color: Colors.yellow,
-          shape: BoxShape.circle,
-        ),
       ),
     );
   }
